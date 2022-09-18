@@ -39,7 +39,7 @@ def split(tetraedes):
 
 def main():
     tetraedes = [Tetra.default()]
-    for _ in range(6):
+    for _ in range(10):
         tetraedes = split(tetraedes)
 
     print(len(tetraedes))
